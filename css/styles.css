@@ -1,0 +1,65 @@
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.player1, .player2 {
+
+    background-color: rgb(201, 201, 201);
+    height: 2em;
+    border: 1px solid white;
+    flex-basis: 70px;
+    height: 50px;
+}
+
+.first-set {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.result {
+    font-size: 2.2rem;
+    margin: 0 auto;
+    margin-top: 0.15em;
+}
+
+.signals2 {
+    width: 150px;
+    height: 200px;
+    /* margin-left: 9em; */
+}
+
+.signals {
+    width: 200px;
+    height: 250px;
+    margin: 0 1.5em;
+    transition: all 0.3s ease;
+}
+
+.second-set {
+    margin: 0 auto;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.signals:hover {
+    transform: scale(1.1);
+}
+
+.third-set {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 4em;
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    /* grid-template-rows: repeat(2, 1fr); */
+}
